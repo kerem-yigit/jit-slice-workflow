@@ -15,7 +15,7 @@ Each phase runs in a separate Claude Code session to preserve context and minimi
 
 ## Installation
 
-Copy the `.claude/` directory into your project root:
-
 ```bash
+git clone https://github.com/kerem-yigit/jit-slice-workflow.git
 cp -r jit-slice-workflow/.claude/ your-project/.claude/
+rm -rf jit-slice-workflow
